@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/22/19/15/hand-1850120_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fff;
+    gap: 4px;
+    background-color: gray;
+    margin: 16px;
+    padding: 16px;
+    align-items: center;
+}
+
+.playing {
+    border: 1px solid #f34;
+    transform: scale(1.1);
+}
+
+span {
+    color: #fff;
+}
+
